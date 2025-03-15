@@ -22,8 +22,8 @@ class guerreiro extends character {
     constructor (name) {
         super(name)
         this.life = 100;
-        this.attack = 10
-        this.defense = 8
+        this.attack = 12;
+        this.defense = 8;
         this.maxLife = this.life; 
     }
 }
@@ -38,7 +38,7 @@ class arqueiro extends character {
 }
 class goblins extends character {
     constructor () {
-        super('Goblin');
+        super('Isaque santos pereira');
         this.life = 100;
         this.attack = 10;
         this.defense = 4;
