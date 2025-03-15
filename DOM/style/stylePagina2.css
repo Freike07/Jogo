@@ -1,0 +1,31 @@
+.fighteareas {
+    display: flex;
+    gap: 20px;
+}
+
+#char, #monster {
+    flex: 1;
+}
+
+.lifebar {
+    height: 10px;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+.lifebar .bar {
+    height: inherit;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.log {
+    border: 1px dotted #999;
+    height: 200px;
+    overflow-y: scroll;
+    
+}
+li {
+    color: rgb(128, 81, 11);
+    list-style: url(/img/espadas.png);
+    margin-left: 535px;
+}
